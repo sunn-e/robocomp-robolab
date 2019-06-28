@@ -22,7 +22,7 @@ interfaces in a seamless way. Building new components is done using two domain s
 
 ![hokuyo logo](https://github.com/sunn-e/Open-source-assets/blob/master/hokuyo.svg)
 
-#### What is HokuyoComp?
+#### What is HokuyoComp🤖?
 
 HokuyoComp is a component used by Robocomp.
 
