@@ -35,17 +35,20 @@ HokuyoComp helps to utilise laser sensor.
 HokuyoComp is written in C++11
 
 ### Configuration parameters
+First, You may install robocomp by following the instructions mentioned [here](https://github.com/robocomp/robocomp/blob/stable/README.md).
 
 As any other component,
-``` *hokuyo* ```
+
+``` hokuyo ```
+
 needs a configuration file to start. In
-
+```
     etc/config
-
+```
 you can find an example of a configuration file. We can find there the following lines:
-
-    EXAMPLE HERE
-
+```
+    Will soon add a working example here. Till then you may want to create an issue or ping us on Gitter.
+```
 ### Starting the component
 
 -   To avoid changing the *config* file in the repository, we can copy it to the component's home directory, so changes will remain untouched by future git pulls:
