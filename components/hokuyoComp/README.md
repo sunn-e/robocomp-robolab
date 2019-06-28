@@ -16,7 +16,7 @@
 ### RoboComp
 
 Hello there 😄, RoboComp is an open-source 💜  Robotics framework. It provides tools to create and modify software components that communicate through public interfaces. Components may *require*, *subscribe*, *implement* or *publish*
-interfaces in a seamless way. Building new components is done using two domain specific languages, IDSL and CDSL. With IDSL you define an interface and with CDSL you specify how the component will communicate with the world. With this information, a code generator creates C++ and/or Python sources, based on CMake, that compile and execute flawlessly. When some of these features have to be changed, the component can be easily regenerated and all the user specific code is preserved thanks to a simple inheritance mechanism.
+interfaces in a seamless way. Building new components is done using two domain specific languages, IDSL and CDSL. With IDSL you define an interface and with CDSL you specify how the component will communicate with the world 🌏. With this information, a code generator creates C++ and/or Python sources, based on CMake, that compile and execute flawlessly. When some of these features have to be changed, the component can be easily regenerated and all the user specific code is preserved thanks to a simple inheritance mechanism.
 
 ### HokuyoComp
 
@@ -70,7 +70,7 @@ bin/hokuyo
 ---
 You can find more tutorials on RoboComp in [tutorials](doc/README.md) 
 
-## Contributing
+## Contributing 💻
 
 ### Follow the Coding Style 
 
@@ -157,11 +157,11 @@ void doSomething(const MyClass &);
 
 This is a proactive approach to simplify compilation time and rebuilding dependencies.
 
-#### Always Use Namespaces
+#### Always Use Namespaces 
 
 There is almost never a reason to declare an identifier in the global namespaces. Instead, functions and classes should exist in an appropriately named namespaces or in a class inside of a namespace. Identifiers which are placed in the global namespace risk conflicting with identifiers from other (mostly C, which doesn't have namespaces) libraries.
 
-#### Avoid Compiler Macros
+#### Avoid Compiler Macros 
 
 Compiler definitions and macros are replaced by the pre-processor before the compiler is ever run. This can make debugging very difficult because the debugger doesn't know where the source came from.
 
@@ -177,7 +177,7 @@ namespace my_project {
 // Bad Idea
 #define PI 3.14159;
 ```
-### Sending Pull Requests
+### Sending Pull Requests ✔️
 
 -   Clone the repo from https://github.com/robocomp/robocomp-robolab
 -   Make some changes in a new branch
@@ -187,7 +187,7 @@ namespace my_project {
 -   Wait for the input by other contributors.
 -   Make changes if suggested. If everything is working fine, your pul request will be merged. :) Congratulations. You just helped RoboComp community. We like you. :p
 
-## Discussion
+## Discussion 💬 
 Drop comments and ask questions in:
 
 - https://groups.google.com/forum/?hl=en#!forum/robocomp-dev
@@ -197,20 +197,21 @@ Please, report any bugs to pbustos@unex.es
 
 If you have any suggestions to improve the repository, like features or tutorials, please contact: robocomp.team@gmail.com 
 
-### Notes
+### Notes 📑
 
- The documentation is a work in progress. Stay tuned for more. In case you need any help, please reach out to us on our gitter. :)
+The documentation is a work in progress. Stay tuned for more. In case you need any help, please reach out to us on our gitter. {Take me there now](https://gitter.im/robocomp/robocomp) 
 
 ---
 [![Open Issues](https://img.shields.io/github/issues-raw/robocomp/robocomp-robolab.svg?color=%23ff7b25&style=for-the-badge)]( https://github.com/robocomp/robocomp-robolab/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/robocomp/robocomp-robolab.svg?color=8a00d4&style=for-the-badge)](https://github.com/robocomp/robocomp-robolab/pulls)
 [![Contributors](https://img.shields.io/github/contributors/robocomp/robocomp-robolab.svg?color=%233b3a30&style=for-the-badge)](https://github.com/robocomp/robocomp-robolab/graphs/contributors)
 [![Code size](https://img.shields.io/github/languages/code-size/robocomp/robocomp-robolab.svg?color=12e6c8&style=for-the-badge)](https://github.com/robocomp/robocomp-robolab)
-[![Join the chat at https://gitter.im/robocomp/robocomp](https://img.shields.io/gitter/room/robocomp/robocomp-robolab.svg?color=6b48ff&style=for-the-badge)](https://gitter.im/robocomp/robocomp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/robocomp/robocomp](https://img.shields.io/gitter/room/robocomp/robocomp-robolab.svg?color=6b48ff&style=for-the-badge)](https://gitter.im/robocomp/robocomp)
 [![LICENSE](https://img.shields.io/github/license/robocomp/robocomp-robolab.svg?color=2f89fc&style=for-the-badge)](https://github.com/robocomp/robocomp-robolab/blob/master/LICENSE)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/robocomp/robocomp-robolab.svg?style=for-the-badge)
 [![Website](https://img.shields.io/website/https/github.io.svg?color=8a00d4&style=for-the-badge)](https://robocomp.github.io/web/)
 
 ---
 
-Copyright (C) 2019 by [Sunny Dhoke](https://github.com/sunn-e) for [Robocomp project](https://github.com/robocomp) as a GSoD assignment.
+Copyright (C) 2019
+Made with 💜,💻 and ☕️ by [Sunny Dhoke](https://github.com/sunn-e) for [Robocomp project](https://github.com/robocomp) as a GSoD assignment.
