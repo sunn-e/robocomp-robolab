@@ -15,11 +15,13 @@
 
 ### RoboComp
 
-RoboComp is an open-source Robotics framework providing the tools to create and modify software components that communicate through public interfaces. Components may *require*, *subscribe*, *implement* or *publish*
+Hello there 😄, RoboComp is an open-source 💜  Robotics framework. It provides tools to create and modify software components that communicate through public interfaces. Components may *require*, *subscribe*, *implement* or *publish*
 interfaces in a seamless way. Building new components is done using two domain specific languages, IDSL and CDSL. With IDSL you define an interface and with CDSL you specify how the component will communicate with the world. With this information, a code generator creates C++ and/or Python sources, based on CMake, that compile and execute flawlessly. When some of these features have to be changed, the component can be easily regenerated and all the user specific code is preserved thanks to a simple inheritance mechanism.
 
 ### HokuyoComp
-KohuyoComp
+
+![hokuyo logo](https://github.com/sunn-e/Open-source-assets/blob/master/hokuyo.svg)
+
 #### What is HokuyoComp?
 
 HokuyoComp is a component used by Robocomp.
@@ -46,28 +48,29 @@ you can find an example of a configuration file. We can find there the following
 
 ### Starting the component
 
-To avoid changing the *config* file in the repository, we can copy it to the component's home directory, so changes will remain untouched by future git pulls:
+-   To avoid changing the *config* file in the repository, we can copy it to the component's home directory, so changes will remain untouched by future git pulls:
+```
+cd <hokuyo 's path>
 
-    cd
+cp etc/config config
+```   
 
-``` <hokuyo 's path> ```
+-   After editing the new config file we can run the component:
 
-    cp etc/config config
+```
+bin/hokuyo
+
+--Ice.Config=config
     
-After editing the new config file we can run the component:
+```
 
-    bin/
-
-```hokuyo ```
-
-    --Ice.Config=config
-    
 ---
 You can find more tutorials on RoboComp in [tutorials](doc/README.md) 
 
 ## Contributing
 
-### Coding Style
+### Follow the Coding Style 
+
 #### Well formed example
 
 ```cpp
@@ -171,6 +174,15 @@ namespace my_project {
 // Bad Idea
 #define PI 3.14159;
 ```
+### Sending Pull Requests
+
+-   Clone the repo from https://github.com/robocomp/robocomp-robolab
+-   Make some changes in a new branch
+-   Test it yourself.
+-   Send Pull Request to Main robocomp-robolab repository.
+-   Add appropriate labels.
+-   Wait for the input by other contributors.
+-   Make changes if suggested. If everything is working fine, your pul request will be merged. :) Congratulations. You just helped RoboComp community. We like you. :p
 
 ## Discussion
 Drop comments and ask questions in:
@@ -181,6 +193,10 @@ Drop comments and ask questions in:
 Please, report any bugs to pbustos@unex.es
 
 If you have any suggestions to improve the repository, like features or tutorials, please contact: robocomp.team@gmail.com 
+
+### Notes
+
+ The documentation is a work in progress. Stay tuned for more. In case you need any help, please reach out to us on our gitter. :)
 
 ---
 [![Open Issues](https://img.shields.io/github/issues-raw/robocomp/robocomp-robolab.svg?color=%23ff7b25&style=for-the-badge)]( https://github.com/robocomp/robocomp-robolab/issues)
