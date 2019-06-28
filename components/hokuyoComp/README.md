@@ -210,4 +210,4 @@ If you have any suggestions to improve the repository, like features or tutorial
 
 ---
 
-Copyright (C) 2019 by [Sunny Dhoke](https://github.com/sunn-e) for [Robocomp project.](https://github.com/robocomp) as a GSoD assignment.
+Copyright (C) 2019 by [Sunny Dhoke](https://github.com/sunn-e) for [Robocomp project](https://github.com/robocomp) as a GSoD assignment.
