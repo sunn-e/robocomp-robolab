@@ -18,8 +18,7 @@
 DOXYFILE_ENCODING      = UTF-8
 
 # ROBOCOMP
-PROJECT_NAME           = differentialrobotComp
-
+PROJECT_NAME           =robex 
 PROJECT_NUMBER         =
 
 
@@ -200,7 +199,8 @@ DISTRIBUTE_GROUP_DOC   = NO
 # the same type (for instance a group of public functions) to be put as a
 # subgroup of that type (e.g. under the Public Functions section). Set it to
 # NO to prevent subgrouping. Alternatively, this can be done per class using
-# the \nosubgrouping command.
+# the
+osubgrouping command.
 
 SUBGROUPING            = YES
 
@@ -352,13 +352,13 @@ SORT_GROUP_NAMES       = NO
 SORT_BY_SCOPE_NAME     = NO
 
 # The GENERATE_TODOLIST tag can be used to enable (YES) or
-# disable (NO) the todo list. This list is created by putting \todo
+# disable (NO) the todo list. This list is created by putting 	odo
 # commands in the documentation.
 
 GENERATE_TODOLIST      = YES
 
 # The GENERATE_TESTLIST tag can be used to enable (YES) or
-# disable (NO) the test list. This list is created by putting \test
+# disable (NO) the test list. This list is created by putting 	est
 # commands in the documentation.
 
 GENERATE_TESTLIST      = YES
@@ -507,7 +507,7 @@ RECURSIVE              = YES
 # subdirectory from a directory tree whose root is specified with the INPUT tag.
 
 # ROBOCOMP
-EXCLUDE                = 
+EXCLUDE                =
 #Base.h Base.cpp Camara.h Camara.cpp CamMotion.h CamMotion.cpp Laser.h Laser.cpp Micro.h Micro.cpp
 
 # The EXCLUDE_SYMLINKS tag can be used select whether or not files or
@@ -523,7 +523,7 @@ EXCLUDE_SYMLINKS       = NO
 # for example use the pattern */test/*
 
 # ROBOCOMP
-EXCLUDE_PATTERNS       = A* B* C* D* E* F* G* H* I* J* K* L* M* N* O* P* Q* R* S* T* U* V* W* X* Y* Z* 
+EXCLUDE_PATTERNS       = A* B* C* D* E* F* G* H* I* J* K* L* M* N* O* P* Q* R* S* T* U* V* W* X* Y* Z*
 
 # The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
 # (namespaces, classes, functions, etc.) that should be excluded from the
@@ -812,7 +812,7 @@ QHP_NAMESPACE          =
 # Qt Help Project output. For more information please see
 # http://doc.trolltech.com/qthelpproject.html#virtual-folders
 
-QHP_VIRTUAL_FOLDER     = 
+QHP_VIRTUAL_FOLDER     =
 
 # If QHP_CUST_FILTER_NAME is set, it specifies the name of a custom filter to add.
 # For more information please see
@@ -948,7 +948,7 @@ PDF_HYPERLINKS         = YES
 
 USE_PDFLATEX           = YES
 
-# If the LATEX_BATCHMODE tag is set to YES, doxygen will add the \\batchmode.
+# If the LATEX_BATCHMODE tag is set to YES, doxygen will add the \batchmode.
 # command to the generated LaTeX files. This will instruct LaTeX to keep
 # running if errors occur, instead of asking the user for help.
 # This option is also used when generating formulas in HTML.
